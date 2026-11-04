@@ -53,6 +53,10 @@ Uploading to the test management tool and running the tests in a browser are sep
 - **Plain language.** Summaries are written from a tester's point of view, not as API jargon, so non-engineers can approve them.
 - **A person can steer a run.** During browser execution you can type a correction ("skip this test", "click Next, not Sign In") and the agent follows. A person's instruction always wins.
 
+## What went wrong first
+
+Early on, the agent wrote test steps and expected results that were too vague to run. The fix was not a cleverer instruction. I gave it the product's own help documentation as reference material and rewrote its skills (the written procedures it follows) so that it had to be concrete. After that, the steps were specific enough for another tester to follow.
+
 ## What it produces
 
 - A test plan document and an effort estimate workbook with PERT calculations.
