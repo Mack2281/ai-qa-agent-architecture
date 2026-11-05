@@ -1,6 +1,6 @@
 # AI QA agent: architecture and design decisions
 
-The web version of this case study is at https://mack2281.github.io/case-study.html
+The web version of this case study is at https://mayank-agrawal-sqa.github.io/case-study.html
 
 A write-up of how I designed and built my company's first AI-powered QA agent.
 
